@@ -1,6 +1,7 @@
 # Movie-recommender-based-on-plot-using-TF-IDF-and-BERT-model
 
 First approach: Term Frequency-Inverse Document Frequency (TF-IDF)
+
 Term Frequency (TF):-
 The number of times a word appears in a document divided by the total number of words in the document. Every document has its own term frequency.
 Inverse Data Frequency (IDF):-
