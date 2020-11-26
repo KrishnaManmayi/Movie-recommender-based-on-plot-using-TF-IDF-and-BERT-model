@@ -4,12 +4,14 @@ First approach: Term Frequency-Inverse Document Frequency (TF-IDF)
 
 Term Frequency (TF):-
 The number of times a word appears in a document divided by the total number of words in the document. Every document has its own term frequency.
+
 Inverse Data Frequency (IDF):-
 The log of the number of documents divided by the number of documents that contain the word.
 Inverse data frequency determines the weight of rare words across all documents in the corpus.
 
 Second approach: Using a pre-trained BERT(Bidirectional Encoder Representations from Transformers) model to understand the context of movie plot in a bi-directional manner.
 BERT is a stack of transformer or encoder layers. It understands the context of a sentence efficiently by observing the sentence from the left as well as from right i.e., bidirectionally.
+
 It is a pre trained language model, which performs the following two tasks:-
 1. Masked Language Modelling (MLM) : This task helps BERT achieve bidirectionality. In every sentence that is given as input, 15% of the words are randomly masked, which are understood as missing tokens. 
 The model predicts the masked words and learns from the feedback of its prediction.
